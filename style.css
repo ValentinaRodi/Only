@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('/fonts/ArialMT.ttf');
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    font-size:20px;
+    font-family: Arial;
+} 
+
+button {
+  cursor: pointer;
+}
+
+.block {
+  height: 100vh;
+  width: 100vw;
+  background-color: #020F20;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+}
+
+.block__img {
+    opacity: 60%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn {
+    position: absolute;
+    height: 41px;
+    min-width: 41px;  
+    border-radius: 50%;
+    border: none;
+    filter: drop-shadow(0px 0px 4px #000000) opacity(75%);
+    color: #fff;
+}
+
+.btn_big {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 20px;
+    height: 38px;
+    border-radius: 40px;
+    filter: opacity(100%);
+}
+
+.btn_blue {
+    background-color: #3877EE;
+}
+
+.btn_green {
+    background-color: #6ABF4B;
+}
+
+.btn_poz0 {
+    left: 30%; 
+    top: 26%; 
+}
+
+.btn_poz1 {
+     left: 23%; 
+     top: 67%; 
+ }
+
+ .btn_poz2 {
+     left: 35%; 
+     top: 45%; 
+ }
+
+ .btn_poz3 {
+     left: 72%; 
+     top: 21%; 
+ }
+
+ .btn_poz4 {
+     left: 60%; 
+     top: 38%; 
+ }
+
+ .btn_poz5 {
+     left: 74%; 
+     top: 44%; 
+ }
+
+ .btn_poz6 {
+    left: 57%; 
+    top: 59%; 
+}
+
+.btn_poz7 {
+    left: 58%; 
+    top: 75%; 
+}
+
+.btn_poz8 {
+    left: 68%; 
+    top: 62%; 
+}
+
+.btn_poz9 {
+    left: 83%; 
+    top: 66%; 
+}
